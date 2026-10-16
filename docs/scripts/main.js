@@ -293,6 +293,8 @@ function update() {
 		comment += parseRoute(`pre4TT`);
 		comment += spacer;
 		comment += parseRoute(`cf`);
+	} else if (jumps > 6 && jumps < 7) {
+		comment += parseRoute(`short76TT`);
 	} else if (jumps > 8 && jumps < 9) {
 		comment += parseRoute(`mixed89TT`);
 		comment += spacer;
